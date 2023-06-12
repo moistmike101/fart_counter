@@ -84,6 +84,9 @@ button {
                 width: 100% !important;
                 padding: 0;
             }
+            .card {
+                 width: 100% !important;
+     }
 
           
         }
@@ -94,6 +97,9 @@ button {
                 /* width: 280px !important for standard sizing  */
                 padding: 0;
             }
+                        .card {
+                 width: 100% !important;
+     }
            
         }
 
