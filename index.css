@@ -80,21 +80,26 @@ button {
     background: #82A3CB;
 }
 
-@media only screen and (max-width: 400px) {
-   
-   .card {
-       padding-top: 15px;
-   }
+ @media only screen and (max-width: 640px) {
+            .card {
+                width: 600px;
+                padding: 0;
+            }
 
-  .card img {
-      width: 80%;
-      margin: 20px auto;
-  }
+            .card img {
+                width: 100%;
+            }
+        }
 
+        @media only screen and (max-width: 479px) {
+            .card {
+                width: 450px;
+                padding: 0;
+            }
 
-    .body {
-        width: 100%;
-        margin: 0 auto;
-    }
-}
+            .card img {
+                width: 100%;
+            }
+        }
+        }
 
