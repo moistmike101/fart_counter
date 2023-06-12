@@ -84,8 +84,9 @@ button {
    
    .card {
        width: 100%;
-       padding-top: 15px;
        margin: 0 auto;
+        padding-top: 0;
+        padding-bottom: 0;
    }
 
   .card img {
@@ -108,7 +109,10 @@ button {
            
 
             .card {
-                width: 100%;
+                  width: 100%;
+                  margin: 0 auto;
+                  padding-top: 0;
+                  padding-bottom: 0;
                
             }
         }
