@@ -99,3 +99,16 @@ button {
         margin: 0 auto;
     }
 }
+@media only screen and (max-width: 479px) {
+            .body {
+                width: 100% !important;
+                /* width: 280px !important for standard sizing  */
+                padding: 0;
+            }
+           
+
+            .card {
+                width: 100%;
+               
+            }
+        }
