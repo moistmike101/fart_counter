@@ -80,41 +80,4 @@ button {
     background: #82A3CB;
 }
 
-@media only screen and (max-width:  640px) {
-   
-   .card {
-       width: 100%;
-       max-width: 100%;
-       margin: 0 auto;
-        padding-top: 0;
-        padding-bottom: 0;
-   }
 
-  .card img {
-      width: 80%;
-      margin: 20px auto;
-  }
-
-
-    .body {
-        width: 100%;
-        margin: 0 auto;
-    }
-}
-@media only screen and (max-width: 479px) {
-            .body {
-                width: 100% !important;
-                /* width: 280px !important for standard sizing  */
-                padding: 0;
-            }
-           
-
-            .card {
-                  width: 100%;
-                max-width: 100%;
-                  margin: 0 auto;
-                  padding-top: 0;
-                  padding-bottom: 0;
-               
-            }
-        }
