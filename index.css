@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+body {
+    background-color: #a3b460;
+    color: white;
+    background-size: cover;
+    font-family: 'Happy Monkey', cursive;
+    font-weight: bold;
+    text-align: center;
+   
+}
+
+.card{
+    margin: 30px auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: green;
+    max-width: 340px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    background-color: #2d2a3a;
+    
+}
+
+.card img {
+    width: 280px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+h1:hover {
+    color:#d0f05c;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white;
+}
+
+h2:hover{
+    color: #d0f05c;
+}
+
+p {
+    color: white;
+}
+
+p:hover {
+    color: #d0f05c;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bolder;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-family: 'Happy Monkey', cursive;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: #82A3CB;
+}
+
+@media only screen and (max-width: 400px) {
+   
+   .card {
+       padding-top: 15px;
+   }
+
+  .card img {
+      width: 80%;
+      margin: 20px auto;
+  }
+
+
+    .body {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
