@@ -79,5 +79,22 @@ button {
 #save-btn {
     background: #82A3CB;
 }
+ @media only screen and (max-width: 640px) {
+            .deviceWidth {
+                width: 100% !important;
+                padding: 0;
+            }
+
+          
+        }
+
+        @media only screen and (max-width: 479px) {
+            .deviceWidth {
+                width: 100% !important;
+                /* width: 280px !important for standard sizing  */
+                padding: 0;
+            }
+           
+        }
 
 
